@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:alphabeticShortcut="j" android:titleCondensed="Josh"
+		android:title="Joshua's Module" android:checked="true"
+		android:enabled="true" android:visible="true" android:checkable="false"
+		android:menuCategory="system" android:id="@menu/test"></item>
+	<item android:alphabeticShortcut="t" android:title="Tian"
+		android:checked="true" android:menuCategory="system" android:id="@menu/test"
+		android:enabled="true" android:visible="true" android:checkable="true"></item>
+
+</menu>

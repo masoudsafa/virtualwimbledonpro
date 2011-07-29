@@ -1,0 +1,39 @@
+Not for the faint of heart...
+
+Dependencies:
+Cygwin
+---make
+---gcc
+---nano
+Android NDK
+Android ADT
+Eclipse
+Cellphone with Android 2.1 minimum
+Qualcomm AR 1.0.0 (possibly)
+
+loginID:
+virtual.wimbledon.pro@gmail.com
+Password:
+TennisGame123
+
+Note:  If pw does not work, log into gmail account.
+
+USB Drivers for the particular cellphone.
+Set up environment variables for Android.
+
+See:  https://ar.qualcomm.com/qdevnet/sdk#
+
+Steps to build:
+
+1)  In cygwin, navigate to MultiTargets root dir.
+1a) Type:  cd c: <enter>
+1b) Navigate to the project root
+2)  Issue ndk-build command
+3)  In Eclipse, clean and rebuild projcet
+4)  With the cellphone plugged in, click on the Project
+5)  Select Run>Run Configurations
+6)  In the middle box, select the the 'Devices' tab.
+7)  Click on 'Manual' radio button.
+8)  Run the project
+9)  Select Cellphone with the popup.
+10) Run.

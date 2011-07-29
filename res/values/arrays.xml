@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="settings_directions">
+		<item>Clockwise</item>
+		<item>Counter-clockwise</item>
+	</string-array>
+	<string-array name="ball_speed">
+		<item>Slow</item>
+		<item>Normal</item>
+		<item>Nightmare</item>
+	</string-array>
+	<string-array name="court_color">
+		<item>Sand</item>
+		<item>Green</item>
+		<item>Chocolate</item>
+	</string-array>
+	
+	<string-array name="entry_ball_speed">
+		<item>100</item>
+		<item>101</item>
+		<item>102</item>
+	</string-array>
+		<string-array name="entry_court_col">
+		<item>110</item>
+		<item>120</item>
+		<item>1300</item>
+	</string-array>
+	
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Virtual Wimbeldon Pro</string>
+	<string name="app_description">
+	<b>Virtual Wimbeldon Pro - beta</b><i>
+	<br/>Mixed Reality Tennis Game - Project at FIT Fraunhofer
+	</i>
+	</string>
+	<string name="app_about"><b>Virtual Wimbledon Pro V1.0 Beta</b>\n   
+	an Augmented reality tennis \'like\' game, 
+	played between one/two players. All you need is the tracker image and a Mobile phone(s).
+	 <i>Developed at FIT Fraunhofer by Tennis Group</i></string>
+	<string name="app_dev_scan">Discovering new opponents...</string>
+	<string name="app_other_devices">Available players</string>
+	<string name="app_paried_devices">Choose an existing opponent </string>
+	<string name="app_none_paired">New opponents</string>
+	<string name="app_sel_dev">Select the opponent</string>
+	<string name="app_no_dev_found">No opponents found!</string>
+	<string name="app_dev_scan_but">Discover new opponents</string>
+	<integer-array name="app_accept_dev_list">
+	<!-- Class:Smart phones -->
+	<!--  Check BluetoothClass.Device for more class list -->
+		<item>524</item>
+	</integer-array>
+	<item type="integer" name="splash_time" format="integer">1500</item> <!--  time in milli-seconds -->
+	
+</resources>

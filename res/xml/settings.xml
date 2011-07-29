@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<PreferenceCategory android:title="Feedbacks">
+		<CheckBoxPreference android:title="Sound"
+			android:defaultValue="true" android:summary="Gives an audible feedback"
+			android:key="soundPref" />
+		<CheckBoxPreference android:title="Haptic"
+			android:defaultValue="true" android:summary="Vibrate phone"
+			android:key="vibratePref" />
+
+	</PreferenceCategory>
+	<PreferenceCategory android:title="Game play">
+
+
+		<ListPreference android:title="Ball speed"
+			android:summary="Change ball speed" android:key="ballSpeedPref"
+			android:entries="@array/ball_speed"
+			android:entryValues="@array/entry_ball_speed"/>
+
+	
+
+		<ListPreference android:title="Court texture"
+			android:summary="Changes texture of court" android:key="courtTexPref"
+			android:entries="@array/court_color"
+			android:entryValues="@array/entry_court_col"/>
+		
+
+
+	</PreferenceCategory>
+
+
+</PreferenceScreen>
